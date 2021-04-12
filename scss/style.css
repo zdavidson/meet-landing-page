@@ -403,7 +403,7 @@ footer {
 
 @media (min-width: 64em) {
   footer {
-    background-image: url(/assets/desktop/image-footer.jpg);
+    background-image: url(../desktop/image-footer.jpg);
     display: -ms-grid;
     display: grid;
     grid-auto-flow: column;

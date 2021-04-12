@@ -70,7 +70,8 @@ footer {
     padding: 3rem 0;
 
     @include breakpoint-up(large) {
-        background-image: url(/assets/desktop/image-footer.jpg);
+        background-image: url(../desktop/image-footer.jpg);
+        
         display: grid;
         grid-auto-flow: column;
         justify-items: left;
