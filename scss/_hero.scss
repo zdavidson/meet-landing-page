@@ -8,19 +8,19 @@
     }
 
     &__image {
-        content: url(/assets/tablet/image-hero.png);
+        content: url(../assets/tablet/image-hero.png);
         transform: translateX(-5%);
         width: 110%;
 
         @include breakpoint-up(large) {
-            content: url(/assets/desktop/image-hero-left.png);
+            content: url(../assets/desktop/image-hero-left.png);
             width: 100%;
         }
     }
 
     &__image2 {
         @include breakpoint-up(large) {
-            content: url(/assets/desktop/image-hero-right.png);
+            content: url(../assets/desktop/image-hero-right.png);
             width: 100%;
         }
     }
